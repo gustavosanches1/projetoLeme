@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        Atividades - Leme Alta Filidade
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link id="pagestyle" href="assets/css/style.css" rel="stylesheet" />
+    <link id="pagestyle" href="assets/css/style.css" rel="stylesheet" />
+    <script src="components/jquery.min.js"></script>
+    <script src="components/jquery.colorbox.js"></script>
+</head>
+
+<body class="g-sidenav-show  bg-gray-100">
+
+
+
+    <main class="main-content mt-1 border-radius-lg">
+        <div class=" col-xl-12 container">
+            <img src="images/logo/logo-leme.png" class="web-img" href="index.html" alt="">
+            <h6 class="text-center" data-aos="fade-up" data-aos-delay="500">É um lindo dia no mar!</h6>
+            <h3 class="text-center" data-aos="fade-up" data-aos-delay="500">ATIVIDADES</h3>
+            <div class="container-fluid py-4">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card mb-4">
+                            <div class="card-header pb-0">
+                                <h6><b><i class="fa fa-search-plus" aria-hidden="true"></i> Filtrar Atividades</b></h6>
+                                <div style="line-height: 1.0;">&nbsp;</div>
+                            </div>
+
+                            <form action="#" method="post">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="form-group col-md-12">
+                                                <label for="exampleFormControlSelect1">Nome da Atividade</label>
+                                                <input type="text" id="myInput" name="nomeAtividade" id="nomeAtividade" class="form-control" placeholder="Nome da atividade" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm">
+                                            <label for="exampleFormControlSelect1">Tipo da Atividade</label>
+                                            <select class="form-control" id="tipo" name="tipo">
+                                        <option value="">Tipo da Atividade</option>
+                                    </select>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <label for="exampleFormControlSelect1">Data da Atividade</label>
+                                            <div class="input-group" data-date-format="dd/mm/yyyy">
+                                                <input type="date" class="form-control" name="dtinicio" id="dtinicio" value="">
+                                                <button for="exampleFormControlSelect1">Até</button>
+                                                <input type="date" class="form-control" name="dtfim" id="dtfim" value="">
+                                            </div>
+                                        </div>
+                                        <div class="col-2 text-center">
+                                            <div class="col-sm">
+                                                <label for="exampleFormControlSelect1">Vagas Disponíveis</label>
+                                                <div class="form-check form-switch slider" style="margin: 5px; margin-left: 60px;">
+                                                    <input class="form-check-input slider " type="checkbox" id="flexSwitchCheckDefault" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid py-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card mb-4">
+                            <div class="card-header pb-0">
+                                <div style="line-height: 1.0;">&nbsp;</div>
+                            </div>
+
+                            <div class="card-body px-0 pt-0 pb-2">
+                                <div class="table-responsive p-0">
+                                    <table class="table align-items-center mb-0" id="myTable">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-9"></th>
+                                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">Nome</th>
+                                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">Tipo</th>
+                                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">Data</th>
+                                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-9">Vagas Disponíveis</th>
+                                                <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-9"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="img-retangle">
+                                                        <h6 class="mb-0 text-sm">
+                                                    </div>
+                                                    </h6>
+                                                </td>
+                                                <td>
+                                                    <span class="text-sm font-weight-bold mb-0">Trilha em Morretes</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="badge badge-sm bg-gradient-success">PASSEIO</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="text-sm font-weight-bold mb-0">10/11/2021</span>
+                                                </td>
+                                                <td align="center">
+
+                                                    <span class="text-sm font-weight-bold mb-0">3 Vagas Disponíveis</span>
+                                                </td>
+                                                <td align="center">
+
+
+                                                    <a class="btn btn-primary">
+                                                        <button class="btn btn-primary">Ver Detalhes</button>
+                                                    </a>
+
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="img-retangle">
+                                                        <h6 class="mb-0 text-sm">
+                                                    </div>
+                                                    </h6>
+                                                </td>
+                                                <td>
+                                                    <span class="text-sm font-weight-bold mb-0">Vôlei de Praia</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="badge badge-sm bg-gradient-success">ESPORTE</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="text-sm font-weight-bold mb-0">10/11/2021</span>
+                                                </td>
+                                                <td align="center">
+
+                                                    <span class="text-sm font-weight-bold mb-0">1 Vaga Disponível</span>
+                                                </td>
+                                                <td align="center">
+
+                                                    <a class="btn btn-primary">
+                                                        <button class="btn btn-primary">Ver Detalhes</button>
+                                                    </a>
+
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="img-retangle">
+                                                        <h6 class="mb-0 text-sm">
+                                                    </div>
+                                                    </h6>
+                                                </td>
+                                                <td>
+                                                    <span class="text-sm font-weight-bold mb-0">Mergulho Lagoa Azul</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="badge badge-sm bg-gradient-success">ATIVIDADE</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="text-sm font-weight-bold mb-0">10/11/2021</span>
+                                                </td>
+                                                <td align="center">
+
+                                                    <span class="text-sm font-weight-bold mb-0">ESGOTADO</span>
+                                                </td>
+                                                <td align="center">
+
+
+                                                    <a class="btn btn-primary">
+                                                        <button class="btn btn-primary">ESGOTADO</button>
+                                                    </a>
+
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="img-retangle">
+                                                        <h6 class="mb-0 text-sm">
+                                                    </div>
+                                                    </h6>
+                                                </td>
+                                                <td>
+                                                    <span class="text-sm font-weight-bold mb-0">Campeonato de Basquete</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="badge badge-sm bg-gradient-success">ESPORTE</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="text-sm font-weight-bold mb-0">10/11/2021</span>
+                                                </td>
+                                                <td align="center">
+
+                                                    <span class="text-sm font-weight-bold mb-0">7 Vagas Disponíveis</span>
+                                                </td>
+                                                <td align="center">
+
+
+                                                    <a class="btn btn-primary">
+                                                        <button class="btn btn-primary">Ver Detalhes</button>
+                                                    </a>
+
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="img-retangle">
+                                                        <h6 class="mb-0 text-sm">
+                                                    </div>
+                                                    </h6>
+                                                </td>
+                                                <td>
+                                                    <span class="text-sm font-weight-bold mb-0">Passeio de Barco Ilha do Mel</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="badge badge-sm bg-gradient-success">PASSEIO</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="text-sm font-weight-bold mb-0">10/11/2021</span>
+                                                </td>
+                                                <td align="center">
+
+                                                    <span class="text-sm font-weight-bold mb-0">ESGOTADO</span>
+                                                </td>
+                                                <td align="center">
+
+
+                                                    <a class="btn btn-primary">
+                                                        <button class="btn btn-primary">ESGOTADO</button>
+                                                    </a>
+
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="img-retangle">
+                                                        <h6 class="mb-0 text-sm">
+                                                    </div>
+                                                    </h6>
+                                                </td>
+                                                <td>
+                                                    <span class="text-sm font-weight-bold mb-0">Surf em Matinhos</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="badge badge-sm bg-gradient-success">ATIVIDADE</span>
+                                                </td>
+                                                <td align="center">
+                                                    <span class="text-sm font-weight-bold mb-0">10/11/2021</span>
+                                                </td>
+                                                <td align="center">
+
+                                                    <span class="text-sm font-weight-bold mb-0">20 Vagas Disponíveis</span>
+                                                </td>
+                                                <td align="center">
+
+
+                                                    <a class="btn btn-primary">
+                                                        <button class="btn btn-primary">Ver Detalhes</button>
+                                                    </a>
+
+
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!--rodape-->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="text-center col-md-12">
+                    <p class="copyright-text">@ LEME Inteligência Forense - Todos os direitos reservados 2021.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
